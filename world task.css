@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+ /* flex-wrap: wrap; */
+}
+.bgimg{
+    background-image: url(images/bgimg.jpg);
+    background-size: 100% 100%;
+    height: 640px;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.658);
+    height: 100%;
+}
+.justify-content-between{
+    justify-content: space-between;
+    
+}
+.a-nav a{
+    color: gray;
+    padding-right: 15px;
+    font-size: 20px;
+    
+}
+.a-nav i{
+    color: gray;
+    font-size: 25px;
+    padding-right: 15px;
+    margin-left: 20px
+}
+.a-nav :hover{
+    color: white;
+}
+.border{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.padding{
+    padding: 2%;
+}
+.margin{
+    margin-top: 35%;
+}
+.how p{
+    color: gray;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.how p:hover{
+    color: white;
+}
+.how h2{
+    width: 10%;
+    color: gray;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+        
+}
+.how h2:hover{
+    border: 5px solid blue;
+    border-left: 5px solid gray;
+}
+.div-margin{
+    margin-top: 12%;
+}
+.dont{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.dont h2{
+    color: black;
+    font-size: 30px;
+}
+.dont a{
+    color: gray;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.dont a:hover{
+    color: black;
+}
+.left-div{
+    width: 70%;
+}
+
+.imgdont1{
+    border: 1px solid lightgray;
+    position: relative;
+    color: black;
+    width: 50%;
+    margin-top: 30px;
+    
+    margin-bottom: 30px;
+}
+.imgdont1 img{
+    width: 100%;
+}
+.imgdont1 p{
+    color: black;
+    font-size: 23px;
+    font-style: bold;
+    padding: 4%;
+    
+}
+.sside1{
+   margin-top: 2.5px;
+    color: black;
+    box-shadow: 0px 0px 23px .1px lightgray;
+}
+
+.smallright{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+
+}
+.right-div{
+    width: 28%;
+    border-left: 2px solid rgb(233, 230, 230);
+   
+}
+.right-div h1{
+    border: none;
+    border-bottom: 2px solid rgb(233, 230, 230);
+   padding-left: 22px;
+   
+    font-size:30px ;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.right-div p{
+    padding-left: 22px;
+    color: gray ;
+    border-bottom: 2px solid rgb(233, 230, 230);
+    font-size:16px ;
+    padding-bottom: 25px;
+    padding-top: 15px;
+   
+    
+}
+.right-div h2{
+    border: none;
+    border-bottom: 2px solid rgb(233, 230, 230);
+   padding-left: 22px;
+   
+    font-size:30px ;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+.width5 img{
+    width: 20%;
+  
+}
+.padding5 p{
+   
+    padding-bottom: 15px;
+    color: black;
+    
+}
+.padding5{
+   
+    margin-left: 22px;
+    font-size:30px ;
+   border: none;
+   margin-top: 2.5px;
+   box-shadow: 0px 0px 23px .1px lightgray;
+}
+.arrowright{
+    background-color: white;
+    color: lightgray;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+   text-align: center;
+   line-height: 1.6;
+   width: 40px;
+   height: 40px;
+    font-size: 24px;
+    margin: 2%;
+}
+.arrowright:hover{
+    color: white;
+    background-color: blue;
+}
+.space{
+    width: 48%;
+}
+.ahover{
+    color: blue;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    padding-right: 1.5%;
+    padding-left: 1.5%; 
+    top:3%;
+    left: 7%;
+}
+.ahover:hover{
+    background-color: blue;
+    color: white;
+}
+.photo1{
+    background-image: url(images/photo.webp);
+    padding-bottom: .6%;
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+.width3{
+    width: 30%;
+}
+
+.photo1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 6%;
+   
+}
+.overlay3{
+    background-color:#08080873;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.ahover1{
+    color: blue;
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    padding-top: 1.5%;
+    padding-bottom:1.5% ;
+    padding-right: 2%;
+    padding-left: 2%; 
+    top: 25px;
+    left: 43%;
+}
+.ahover1:hover{
+    background-color: blue;
+    color: white;
+}
+.last{
+    margin-top: 4%;
+}
+.icons6{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 22px;
+}
+.icons6:hover{
+    color: blue;
+}
+.bigicon{
+    border: none;
+    border-bottom: 2px solid rgb(233, 230, 230);
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.today img{
+    margin-left: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    height: 250px;
+    width: 350px;
+}
+.today p{
+    color: black;
+    font-size: 30px;
+    border: none;
+    border-bottom: none;
+}
+.right2{
+    width: 28%;
+
+}
+.right2 h2{
+    border: none;
+    border-bottom: 2px solid rgb(233, 230, 230);
+   padding-left: 22px;
+   
+    font-size:30px ;
+    padding-bottom: 15px;
+    
+}
+.video1{
+    width: 100%;
+    padding-left: 22px;
+    margin-top: 15px;
+    border: none;
+    padding-bottom: 15px;
+}
+
+.play{
+    position:absolute;
+    background-color: white;
+    color: gray;
+    left: 47%;
+    bottom: 72%;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgray;
+    text-align: center;
+    line-height: 2;
+    padding-left: 2.5px;
+    
+}
+.play:hover{
+    color: blue;
+}
+.lastbtn{
+    text-align: center;
+    margin-left: 45%;
+    border-radius: 20px;
+    color: rgb(161, 161, 161);
+    border: 1.5px solid rgb(161, 161, 161);
+    background-color: white;
+    width: 10%;
+    padding: .8%;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.lastbtn:hover{
+    color: white;
+    background-color: blue;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+.links{
+    width: 35%;
+}
+.ahome{
+    width: 30%;
+    padding-top: 20%;
+   color: white;
+}
+.ahome a{
+    color: gray;
+}
+.ahome a:hover{
+    color: blue;
+}
+.footer p{
+    color: gray;
+    
+    padding-top: 3%;
+}
+.subscribe{
+    width: 35%;
+    padding-top: 5%;
+    margin-left: 20px;
+    position: relative;
+}
+.world{
+    margin-top: 5%;
+    width: 37%;
+}
+.world i{
+    color: gray;
+    border: none
+}
+.subscribe h2{
+    margin-bottom: 20px;
+}
+.subscribe input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 90%;
+    background-color: black;
+    color: gray;
+    
+}
+.subscribe i{
+    color: gray;
+    border: none;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+.subscribe button{
+    color: black;
+    border: none;
+
+}
+.subscribe input:focus{
+
+    outline: 0;
+}
+
+
+
+
+
+.arrow{
+    font-size: 24px;
+    position: fixed;
+    right: 4%;
+    bottom: 6%;
+    background-color: rgba(20, 20, 20, 0.911);
+    color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(20, 20, 20, 0.911);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.arrow:hover{
+    color: white;
+    background-color: blue;
+}
